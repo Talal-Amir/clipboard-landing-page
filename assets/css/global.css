@@ -152,14 +152,14 @@ body {
     min-width: 38rem;
 }
 
-.led-img{}
+/* .led-img{} */
 
 .about-desc{
     display: flex;
     flex-direction: column;
     gap: 6rem;
 }
-.about-box{}
+/* .about-box{} */
 .box-heading{
     font-size: 3rem;
     font-weight: 600;
