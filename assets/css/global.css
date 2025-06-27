@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+display: block;
+max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+:root {
+  /* Colors: HSL (Hue, Saturation, Lightness) */
+  --Green-500: hsl(171, 66%, 44%);
+  --Blue-100: hsl(233, 100%, 69%);
+
+  /* Neutral */
+  --Gray-700: hsl(210, 10%, 33%);
+  --Gray-500: hsl(201, 11%, 66%);
+
+  /* Font Families */
+  --font-Poppins: "Bai Jamjuree", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-Poppins);
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* HERO SECTION */
+
+.hero-section{
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-logo{
+    margin-bottom: 4rem;
+}
+.hero-heading{
+    font-size: 4.8rem;
+    color: var(--Gray-700);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.hero-desc{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--Gray-500);
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+.hero-links{}
+.hero-btn{}
+.link{}
